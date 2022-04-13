@@ -1,28 +1,25 @@
 <?php
 
 $idioma = "es";
-$idiomaNavegador=substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$idiomasPermitidos=array("ca","es");
+$idiomaNavegador = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+$idiomasPermitidos = array("ca", "es");
 
-if(isset($_COOKIE["idioma"])){
-		Global $idioma;
-		$idioma=$_COOKIE['idioma'];
-		if (in_array($idioma, $idiomasPermitidos) ) {
-			$idioma=$_COOKIE["idioma"];
-		} else {
-			$idioma = "es";
-		}
+if (isset($_COOKIE["idioma"])) {
+    global $idioma;
+    $idioma = $_COOKIE['idioma'];
+    if (in_array($idioma, $idiomasPermitidos)) {
+        $idioma = $_COOKIE["idioma"];
+    } else {
+        $idioma = "es";
+    }
 
-		
-		
-	}
-else {
-	if(in_array($idiomaNavegador, $idiomasPermitidos)) {
-		setcookie("idioma",$idiomaNavegador,time()+60*60*24*30,"/");
-	} else {
-		setcookie("idioma","es",time()+60*60*24*30,"/");
-		$idioma="es";
-	}
+} else {
+    if (in_array($idiomaNavegador, $idiomasPermitidos)) {
+        setcookie("idioma", $idiomaNavegador, time() + 60 * 60 * 24 * 30, "/");
+    } else {
+        setcookie("idioma", "es", time() + 60 * 60 * 24 * 30, "/");
+        $idioma = "es";
+    }
 }
 
 include "./idiomas/content_$idioma.php";
@@ -50,7 +47,7 @@ include "./idiomas/content_$idioma.php";
 			<img src="./img/IEM_logo.png" width="50" height="50" >
 			</div>
 		<div class="col-lg-11 mt-1"><h2><?=$titulo?></h2></div>
-		</div>	
+		</div>
 
 	</div>
 </body>

@@ -18,7 +18,7 @@
         <a class="nav-link" href="contacto.php"><?=$nav_item3?></a>
       </li>
 
- 
+
       <li class="nav-item">
         <a class="nav-link " href="../idiomas/creaCookie.php?idioma=ca">
           <img alt="" src="img/ca.png" height="25px"> CA</a>
@@ -29,10 +29,10 @@
       </li>
     </ul>
 
-  
+
   </div>
   </div>
   </div>
-  
+
 </nav>
 
