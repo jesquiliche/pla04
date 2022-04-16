@@ -4,34 +4,34 @@
 
 		if($("#nombre").val() == "") {
 			//validar nombre informado
-			text=("Nombre" + "\n");
+			text=(Nombre + "\n");
 			error=true;
 		}
 
 		if($("#email").val() == "") {
 			//validar email informado
-			text=(text + "Email" + "\n");
+			text=(text + Email + "\n");
 			error=true;
 		} else {
 			//validar email correcto
         	if (!/^\w+([\.-]\w+)*@\w+([\.-]\w+)*$/.test($("#email").val())) {
-				text=(text + "Por favor, introduzca una dirección de correo válida." + "\n");
+				text=(text + Valida_Email + "\n");
 				error=true;
 			}
 		}
 
 		if($("#mensaje").val() == "") {
-			text=(text + "Mensaje" + "\n");
+			text=(text + Mensaje + "\n");
 			error=true;
 		} 
 
 		if (!document.getElementById('privacidad').checked) {
-			text=(text + "Es obligatorio aceptar la normativa de privacidad");
+			text=(text + Ley_privacidad);
 			error=true;
 		};
 
 		if (error==true) {
-			text=("Por favor revise los siguientes datos:\n\n" + text + "\n\n");
+			text=(Revisar + text + "\n\n");
 		}
 
 		if (error==true) {

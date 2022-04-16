@@ -31,7 +31,7 @@ $contacto_email="Email: *";
 $contacto_telefono="Teléfono: *";
 $contacto_mensaje="Mensaje: *";
 $contacto_mensaje2="Introduzca aquí su pregunta o comentario";
-$contacto_conformidad="He leido i acepto la política de privacidad:";
+$contacto_conformidad="He leido y acepto la política de privacidad:";
 $contacto_ver="Ver aquí";
 
 $contacto_ley="En cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), le informamos que los datos de carácter personal que usted nos comunique mediante este formulario de contacto serán confidenciales y, bajo ningún concepto serán transmitidas a terceras personas.";

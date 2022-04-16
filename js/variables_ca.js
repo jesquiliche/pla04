@@ -1,0 +1,6 @@
+const Nombre="Nom"
+const Email="Email"
+const Valida_Email="Si us plau introdueixi una adreça de correu electrónic vàlida"
+const Mensaje="Missatge"
+const Ley_privacidad="Es obligatori acceptar la normativa de privacitat."
+const Revisar="Si us plau revisi les següents dades:\n\n"

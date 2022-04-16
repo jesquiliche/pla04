@@ -45,12 +45,16 @@ require "./sections/navbar.php";
 						<label><?=$contacto_mensaje?></label><br>
 						<textarea id="mensaje" class="form-control"
 								name="mensaje">
-								<?=$contacto_telefono2?>
+							
 						</textarea>
 						</div>
-						<span>He leido y acepto la política de privacidad:</span><br><br>
+						<div>
+						<?=$contacto_ley?>
+						<div>
+						
 						<input id="privacidad" type="checkbox" name="privacidad">&nbsp&nbsp
-						<span id='ver' onclick="muestraAlert()">Ver aquí</span><br><br>
+						<span id='ver' onclick="muestraAlert()"><?=$contacto_conformidad?>
+						</span><br><br>
 						<input id="enviar" type="button" class="btn btn-primary" name="enviar" value="Enviar" onclick="validaFormulario()"/><br>
 						<div id="alerta">
 

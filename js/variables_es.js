@@ -1,0 +1,6 @@
+const Nombre="Nombre"
+const Email="Email"
+const Valida_Email="Por favor introduzca una dirección de correo electronico valida"
+const Mensaje="Mensaje"
+const Ley_privacidad="Es obligatorio acceptar la normativa de privacidad." 
+const Revisar="Por favor revise los siguientes datos:\n\n"

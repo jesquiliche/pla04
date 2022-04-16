@@ -37,7 +37,8 @@ include "./idiomas/content_$idioma.php";
 	<script src="js/page.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/page.css" type="text/css" />
 	<link rel="stylesheet" href="css/App.css" type="text/css" />
-
+	<script type="text/javascript" src='js/variables_<?=$idioma?>.js'></script>
+	<script type="text/javascript" src='js/form.js'></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" />
 </head>
 <body>
