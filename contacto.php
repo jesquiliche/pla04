@@ -1,7 +1,7 @@
 <?php
 require "./sections/head.php";
 
-echo "<body>";
+
 require "./sections/navbar.php";
 ?>
 
@@ -10,7 +10,7 @@ require "./sections/navbar.php";
 				<img src="img/iem_3.jpg" class="marco" /><img src="img/iem_4.jpg" class="marco"/>
 		    </div>
 		    	<h1 class="text-center py-1"><?=$contacto_localizacion?></h1><br><br>
-		    	<div class="card col-lg-12">
+		    	<div class="container col-lg-10 mx-auto py-3">
 					<h2 class="text-center"><?=$contacto_contacto?></h2>
 					<p><?=$contacto_obligatorios?></p><br>
 					<form id="form" name="form" method="get" action='#'>
@@ -44,14 +44,12 @@ require "./sections/navbar.php";
 						<div class="form-group">
 						<label><?=$contacto_mensaje?></label><br>
 						<textarea id="mensaje" class="form-control"
-								name="mensaje">
-							
-						</textarea>
+								name="mensaje"></textarea>
 						</div>
 						<div>
 						<?=$contacto_ley?>
 						<div>
-						
+
 						<input id="privacidad" type="checkbox" name="privacidad">&nbsp&nbsp
 						<span id='ver' onclick="muestraAlert()"><?=$contacto_conformidad?>
 						</span><br><br>
@@ -63,17 +61,24 @@ require "./sections/navbar.php";
 
 
 				</div>
-		    </div>
-		    <br><br>
+		    
+		
 		</div>
 
-<div class="footer_contacto">
+<div class="container">
+	
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
 <?php
-require "./sections/footer.php";
+	require "./sections/footer.php"
 
 ?>
 
-</div>
 
-</body>
 </html>

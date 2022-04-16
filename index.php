@@ -13,10 +13,11 @@ require "./sections/navbar.php";
 			</div>
 		    <br><br>
 		</div>
-	<?php
-require "./sections/footer.php";
 
-?>
 	</div>
+	<?php
+		require "./sections/footer.php";
+
+	?>
 </body>
 </html>

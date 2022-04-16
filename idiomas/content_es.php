@@ -13,7 +13,7 @@ $nav_item3="SITUACIÓN Y CONTACTO";
 #<footer>
 
 
-$compartir="Comparteix a"; 
+$compartir="Compartir en"; 
 
 #index.php 
 

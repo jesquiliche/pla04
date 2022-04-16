@@ -1,7 +1,7 @@
 <footer id="footer">
 
 	<ul>
-		<li style="font-size: 1.0em;">Comparte en:</li><br>
+		<li style="font-size: 1.0em;"><?=$compartir?></li><br>
 		<li>
 			<img src="img/facebook_logo.png" alt="facebook" title="Comparteix a facebook" /></a>&nbsp&nbsp
 			<img src="img/twitter_logo.png" alt="twitter" title="Comparteix a twitter" /></a>&nbsp&nbsp
