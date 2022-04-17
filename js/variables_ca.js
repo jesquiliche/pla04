@@ -4,3 +4,4 @@ const Valida_Email="Si us plau introdueixi una adreça de correu electrónic và
 const Mensaje="Missatge"
 const Ley_privacidad="Es obligatori acceptar la normativa de privacitat."
 const Revisar="Si us plau revisi les següents dades:\n\n"
+const Telefono="Telèfon"

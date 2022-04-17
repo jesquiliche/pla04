@@ -32,7 +32,7 @@ $contacto_obligatorios="Els camps marcats amb * son obligatoris.";
 
 $contacto_nombre="Nom: *";
 $contacto_email="Email: *";
-$contacto_telefono="Telèfon: *";
+$contacto_telefono="Telèfon:";
 $contacto_mensaje="Missatge: *";
 $contacto_mensaje2="Introdueixi aquí la seva pregunta o comentari";
 $contacto_conformidad="He llegit i accepto la política de privacitat:";

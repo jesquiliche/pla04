@@ -25,6 +25,9 @@
 			error=true;
 		} 
 
+		 
+
+
 		if (!document.getElementById('privacidad').checked) {
 			text=(text + Ley_privacidad);
 			error=true;

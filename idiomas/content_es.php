@@ -28,7 +28,7 @@ $contacto_obligatorios="Los campos marcados con * son obligatorios.";
 
 $contacto_nombre="Nombre: *";
 $contacto_email="Email: *";
-$contacto_telefono="Teléfono: *";
+$contacto_telefono="Teléfono:";
 $contacto_mensaje="Mensaje: *";
 $contacto_mensaje2="Introduzca aquí su pregunta o comentario";
 $contacto_conformidad="He leido y acepto la política de privacidad:";
