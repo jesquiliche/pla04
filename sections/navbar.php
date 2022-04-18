@@ -20,11 +20,11 @@
 
 
       <li class="nav-item">
-        <a class="nav-link " href="../idiomas/creaCookie.php?idioma=ca">
+        <a class="nav-link " href="http://localhost/PLA04/idiomas/creaCookie.php?idioma=ca">
           <img alt="" src="img/ca.png" height="25px"> CA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../idiomas/creaCookie.php?idioma=es">
+        <a class="nav-link " href="http://localhost/PLA04/idiomas/creaCookie.php?idioma=es">
           <img alt="" src="img/es.png" height="25px"> ES</a>
       </li>
     </ul>

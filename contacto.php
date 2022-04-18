@@ -1,7 +1,6 @@
 <?php
 require "./sections/head.php";
 
-
 require "./sections/navbar.php";
 ?>
 
@@ -61,12 +60,12 @@ require "./sections/navbar.php";
 
 
 				</div>
-		    
-		
+
+
 		</div>
 
 <div class="container">
-	
+
 </div>
 </div>
 </div>
@@ -76,7 +75,7 @@ require "./sections/navbar.php";
 
 </body>
 <?php
-	require "./sections/footer.php"
+require "./sections/footer.php"
 
 ?>
 
